@@ -29,19 +29,24 @@ def classify_image(image_path, model):
 
 def home():
     st.title("Welcome to Rice Image Classification!")
-    st.write("This website uses a machine learning model to classify different types of rice.")
-    st.write("Upload an image of a rice grain and the model will predict its type.")
-    st.write("Click on the 'Classify' button to initiate the classification process.")
+    st.write("Welcome to Rice Image Classification, an interactive website that leverages the power of machine learning to accurately classify various types of rice grains. With our state-of-the-art image recognition model, you can simply upload an image of a rice grain and receive an instant prediction of its type. ")
+    st.write("Our model is trained on a diverse set of rice grain images and has the ability to identify various types of rice, including basmati, jasmine, brown, white, and more. ")
+    st.write("To get started, just click on the 'Classify' button and let our model do the rest. Experience the accuracy and efficiency of our cutting-edge technology today!
+
+
+
+")
 
 def about():
     st.title("About Rice Image Classification")
-    st.write("This website was created to help people identify different types of rice grains using machine learning.")
-    st.write("The model used in this website was trained on a dataset of rice images from around the world.")
-    st.write("We hope that this website can help people learn more about rice and appreciate the diversity of this important crop.")
+    st.write("Rice Image Classification is a state-of-the-art website that offers a reliable and accurate way to identify various types of rice grains. Our website employs advanced machine learning algorithms to classify your uploaded images of rice grains, allowing you to learn more about the different varieties of rice.")
+    st.write("Our team of experts has trained the machine learning model on a vast dataset of high-quality rice images from all corners of the world. This ensures that the model can effectively classify rice grains of different shapes, sizes, and colors accurately.")
+    st.write("We created this website with the goal of providing people with an easy and convenient way to learn about rice and its different varieties. We believe that through this website, you can not only improve your knowledge of rice but also gain a greater appreciation for the diversity of this essential crop.")
+    st.write("So, whether you are a rice enthusiast, a food lover, or just curious about the world's different rice types, Rice Image Classification is here to help you identify and learn more about them.")        
 
 def contact():
     st.title("Contact Us")
-    st.write("If you have any questions or comments about this website, please feel free to contact us.")
+    st.write("We are always happy to receive feedback or address any questions you may have about Rice Image Classification. You can reach out to us using the email address provided below.For inquiries regarding technical support or issues with the website, please don't hesitate to contact us. We are also open to suggestions on how we can improve the website or add more features that would be useful to our users.")
     st.write("Email: contact@riceimageclassification.com")
 
 
